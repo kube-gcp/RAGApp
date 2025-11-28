@@ -3,7 +3,7 @@
 import requests
 import minirag
 #check bot is working
-TOKEN = "8472153535:AAFnz1i-wVOeqD4rrQnR2tfuRFIpnPwVU8U"
+TOKEN = "YourToken"
 url = f"https://api.telegram.org/bot{TOKEN}/getMe"
 response = requests.get(url)
 print(response.json())
